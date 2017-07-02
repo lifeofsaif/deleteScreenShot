@@ -1,8 +1,0 @@
-cd ~/Desktop
-mv  Screen* ~/.Trash
-cnt=$(w -h | grep "^$(whoami) *s[^ ]* *-"|wc -l)
-if [ $cnt = 1 ]
-then
-	Killall Terminal
-fi
-
